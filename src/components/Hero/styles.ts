@@ -6,12 +6,16 @@ export const Container = styled.div`
     width: 100%;
     min-height: calc(100vh - 70px);
     background-color: ${({theme}) => theme.colors.background2};
-    width: 100%;
     
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+
+    background-image: url(${heroWaveBackground});
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center bottom;
 `;
 
 export const HeroWrapper = styled.div`
@@ -62,17 +66,4 @@ export const HeroButton = styled.button`
     :hover {
         background-color: ${({theme}) => theme.colors.detail1};
     }
-`;
-
-export const WaveBackground = styled.div`
-    width: 100%;
-    min-height: calc(100vh - 70px);
-
-    position: absolute;
-
-    background-image: url(${heroWaveBackground});
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center bottom;
-    
 `;

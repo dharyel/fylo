@@ -1,6 +1,5 @@
 import { 
     Container, 
-    WaveBackground, 
     HeroWrapper,
     HeroImg,
     HeroText,
@@ -24,7 +23,6 @@ export const Hero = () => {
                 </HeroText>
                 <HeroButton>Get Started</HeroButton>
             </HeroWrapper> 
-            <WaveBackground />
         </Container>
     );
 }

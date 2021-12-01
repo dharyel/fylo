@@ -4,7 +4,7 @@ export const darkTheme: ThemeInterface = {
     colors: {
         background1: 'hsl(219, 30%, 18%)',
         background2: 'hsl(217, 28%, 15%)',
-        background3: 'hsl(218, 28%, 13%)', //mainBackground
+        background3: '#181F2B', //mainBackground
         background4: 'hsl(216, 53%, 9%)',
 
         detail1: 'hsl(176, 68%, 64%)',
