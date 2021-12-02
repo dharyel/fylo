@@ -10,7 +10,7 @@ import securityIcon from '../../assets/images/icon-security.svg';
 
 export const Features = () => {
     return (
-        <Container>
+        <Container id="features">
             <FeaturesWrapper>
                 <Feature  
                     img={accessAnywhereIcon}

@@ -7,9 +7,13 @@ import {
     HeroButton
  }  from './styles';
 
+interface HeroProps{
+    id: string;
+}
+
 export const Hero = () => {
     return (
-        <Container>
+        <Container id="home">
             <HeroWrapper>
                 <HeroImg />
                 <HeroTitle>All your files in one secure location,

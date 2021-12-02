@@ -1,6 +1,7 @@
 import styled from 'styled-components';
 import teamImg from '../../assets/images/illustration-stay-productive.png'
 import linkArrowIcon from '../../assets/images/icon-arrow.svg';
+import quoteImg from '../../assets/images/bg-quotes.png';
 
 export const Container = styled.div`
     width: 100%;
@@ -28,14 +29,14 @@ export const TeamInfoImg = styled.img.attrs({
     src: `${teamImg}`
 })`
     
-    width: 525px;
+    width: 480px;
     
 
     margin: 30px;
 `;
 
 export const TeamInfoTextsWrapper = styled.div `
-    width: 525px;
+    width: 570px;
 
     margin: 30px;
 
@@ -100,5 +101,21 @@ export const TeamInfoLinkIcon = styled.img.attrs({
     src: `${linkArrowIcon}`
 })`
 
+`;
 
+export const TeamCardsContainer = styled.div`
+    width: 100%;
+    max-width: 1440px;
+    padding: 100px 0px;
+    
+    background-color: ${({theme}) => theme.colors.background3};
+    background-image: url(${quoteImg});
+    background-size: auto;
+    background-position: 200px 80px;
+    background-repeat: no-repeat;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
 `;
