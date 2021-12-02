@@ -3,6 +3,7 @@ import { Hero } from '../../components/Hero';
 import { Features } from '../../components/Features';
 
 import { Container } from './styles';
+import { Team } from '../../components/Team';
 
 export const Home = () => {
     return (
@@ -10,6 +11,7 @@ export const Home = () => {
             <Header />
             <Hero />
             <Features />
+            <Team />
         </Container>
     );
 }
