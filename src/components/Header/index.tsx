@@ -15,7 +15,7 @@ export const Header = () => {
                 <NavLinkUl>
                     <NavLinkLi><NavLinkA href="#features">Features</NavLinkA></NavLinkLi>
                     <NavLinkLi><NavLinkA href="#team">Team</NavLinkA></NavLinkLi>
-                    <NavLinkLi><NavLinkA href="#">Sign In</NavLinkA></NavLinkLi>
+                    <NavLinkLi><NavLinkA href="#signup">Sign Up</NavLinkA></NavLinkLi>
                 </NavLinkUl>
             </Nav>
         </Container>

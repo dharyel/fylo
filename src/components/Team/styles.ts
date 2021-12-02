@@ -60,7 +60,7 @@ export const TeamInfoDescription = styled.p`
 `;
 
 export const TeamInfoLink = styled.a.attrs({
-    href:`${'#'}`
+    href:`${'#signup'}`
 })`
 
     display: block;
@@ -107,6 +107,7 @@ export const TeamCardsContainer = styled.div`
     width: 100%;
     max-width: 1440px;
     padding: 100px 0px;
+    margin-bottom: 150px;
     
     background-color: ${({theme}) => theme.colors.background3};
     background-image: url(${quoteImg});

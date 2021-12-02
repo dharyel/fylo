@@ -13,7 +13,7 @@ export const Card = styled.div`
     align-items: center;
 
     border-radius: 5px;
-    box-shadow: 10px 10px 15px rgba(0,0,0,0.5);
+    box-shadow: 10px 10px 20px rgba(0,0,0,0.4);
     background-color: ${({theme}) => theme.colors.background1};
     z-index: 1;
 `
