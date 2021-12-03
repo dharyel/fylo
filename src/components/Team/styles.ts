@@ -30,9 +30,11 @@ export const TeamInfoImg = styled.img.attrs({
 })`
     
     width: 480px;
-    
-
     margin: 30px;
+
+    @media (max-width: 600px){
+        width: 300px;
+    }
 `;
 
 export const TeamInfoTextsWrapper = styled.div `

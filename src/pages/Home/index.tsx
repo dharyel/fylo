@@ -5,6 +5,7 @@ import { Features } from '../../components/Features';
 import { Container } from './styles';
 import { Team } from '../../components/Team';
 import { SignUp } from '../../components/SignUp';
+import { Footer } from '../../components/Footer';
 
 export const Home = () => {
     return (
@@ -14,6 +15,7 @@ export const Home = () => {
             <Features />
             <Team />
             <SignUp />
+            <Footer />
         </Container>
     );
 }

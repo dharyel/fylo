@@ -5,9 +5,10 @@ export const Container = styled.div`
     width: 100%;
     max-width: 1440px;
     height: 70px;
-    /*background-color: ${ ({theme}) => theme.colors.background2};*/
+    padding: 0 30px;
 
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
 

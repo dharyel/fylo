@@ -6,6 +6,7 @@ interface InvalidEmailTextProps {
 
 export const Container = styled.div`
     width: 100%;
+    padding: 0 30px;
 
     background-color: ${({theme}) => theme.colors.background4};
 
@@ -58,6 +59,13 @@ export const EmailForm = styled.form`
     display: flex;
     justify-content: space-between;
     align-items: center;
+
+    @media (max-width: 600px){
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
 `;
 
 export const EmailInput = styled.input.attrs({
@@ -65,7 +73,7 @@ export const EmailInput = styled.input.attrs({
     placeholder: 'email@example.com',
 })`
     width: 500px;
-    height: 40px;
+    height: 50px;
     padding: 10px 30px;
     margin-right: 10px;
 
@@ -83,6 +91,12 @@ export const EmailInput = styled.input.attrs({
 
     :valid {
         color: darkgreen;
+    }
+
+    @media (max-width: 600px){
+        width: 100%;
+        margin: 0px;
+        margin-bottom: 20px;
     }
 `;
 
@@ -102,7 +116,7 @@ export const InvalidEmailText = styled.label<InvalidEmailTextProps>`
 export const SignUpButton = styled.button`
     width: 160px;
     
-    height: 40px;
+    height: 50px;
     padding: 10px;
 
     cursor: pointer;
@@ -116,5 +130,9 @@ export const SignUpButton = styled.button`
 
     :hover {
         background-color: ${({theme}) => theme.colors.detail1};
+    }
+
+    @media (max-width: 600px){
+        width: 100%;
     }
 `;
